@@ -33,7 +33,7 @@ def interpret_response(user_response):
     return answer == 'yes'
 
 
-_______________________ NEW _________________________
+# _______________________ NEW _________________________
 
 
 def interpret_intent(user_response):
