@@ -13,4 +13,4 @@ def scheduled_send_reminder():
         reminder_message = f"Hola {Config.YOUR_WHATSAPP_NUMBER[9:]}, soy tu asistente virtual de TuDelivery. Deseas ver la lista de productos? Si/No"
         send_whatsapp_template_message(Config.YOUR_WHATSAPP_NUMBER, Config.TWILIO_WHATSAPP_NUMBER, reminder_message)
 
-scheduler.add_job(scheduled_send_reminder, 'cron', day_of_week='wed', hour=13, minute=46)
+scheduler.add_job(scheduled_send_reminder, 'cron', day_of_week='mon', hour=17, minute=39)
